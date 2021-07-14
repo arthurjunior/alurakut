@@ -40,7 +40,7 @@ export default function Home() {
   <MainGrid>
    <div className="profileArea" style={{ gridArea: 'profileArea'}}>
      <Box>
-      Imagem
+      <img src="http://github.com/arthurjunior.png" />
      </Box>
    </div>
    
