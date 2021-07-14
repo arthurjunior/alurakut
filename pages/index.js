@@ -11,23 +11,33 @@ border-radius: 8px;
 `;
 
 const MainGrid = styled.main`
+display: grid;
+grid-gap: 10px;
+padding: 16px;
+
+@media(min-width: 860px){
+  grid-template-areas: 
+  "profileArea welcomeArea profileRelationsArea";
+  grid-template-columns: 160px 618px 312px ;
+}
+
 
 `;
 
 export default function Home() {
-  return (
-  <main>
+  return ( 
+  <MainGrid>
     <Box>
       Imagem
     </Box>
 
     <Box>
-      Bem Vindo
+      Bem-Vindo
     </Box>
 
     <Box>
       Pessoas da comunidade
     </Box>
-  </main>
+  </MainGrid>
   )
 }

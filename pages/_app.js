@@ -10,12 +10,14 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
   body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: sans-serif;
     background-color: #D9E6F6;
     
+  }
+  #__next {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
   }
 `
 
