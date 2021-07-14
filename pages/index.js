@@ -12,11 +12,10 @@ border-radius: 8px;
 
 const MainGrid = styled.main`
 width: 100%;
+grid-gap: 10px;
 margin-left: auto;
 margin-rigth: auto;
-display: grid;
 max-width: 500px;
-grid-gap: 10px;
 padding: 16px;
   .profileArea{
     display: none;
@@ -26,6 +25,8 @@ padding: 16px;
   }
 
 @media(min-width: 860px){
+  max-width: 1110px;
+  display: grid;
   grid-template-areas: 
   "profileArea welcomeArea profileRelationsArea";
   grid-template-columns: 160px 1fr  312px ;
