@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-
-
+import MainGrid from '../scr/componentes/MainGrid'
+import Box from '../scr/componentes/box'
 
 
 export default function Home() {
