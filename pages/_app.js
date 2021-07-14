@@ -1,16 +1,27 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+/*Reset CSS  arthur*/
+
 
 const GlobalStyle = createGlobalStyle`
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #D9E6F6;
+    
   }
 `
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: 'red',
   },
 }
 
