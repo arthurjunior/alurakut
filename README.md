@@ -1,6 +1,6 @@
-# Alurakut Base
+# Alurakut 
 
-Seja bem vindo ao projeto base do Alurakut 
+Seja bem vindo ao projeto Alurakut, construido a parti do evento Imersão React da Alura
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
